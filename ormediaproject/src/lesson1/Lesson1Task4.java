@@ -4,10 +4,10 @@ public class Lesson1Task4 {
 
 	public static void main(String[] args) {
 		char[]chars = randomCharArray(30,100);
-		System.out.println("����������� ������ ��������");
+		System.out.println("Первый массив");
 		System.out.println(chars);
 		changeCharRegister(chars);
-		System.out.println("�������� ������ ��������");
+		System.out.println("Второй массив");
 		System.out.println(chars);
 	}
 	
