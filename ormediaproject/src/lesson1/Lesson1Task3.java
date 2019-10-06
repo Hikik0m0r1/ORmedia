@@ -6,9 +6,9 @@ public class Lesson1Task3 {
 	
 
 	public static void main(String[] args) {
-		int array[] = randomArray(20,2,15);
+		int array[] = randomArray(20,1,1);
 		int array2[] = randomArray(10,4,10);
-		int number = 2;
+		int number = 1;
 		int index = indexOfMaxDifference(array);
 		show(array);
 		System.out.println("Первый массив");
@@ -21,7 +21,7 @@ public class Lesson1Task3 {
 		show1(cutAndMerge(array,array2,false));
 		System.out.println("Сумма четных элементов первого массива : "+oddEvenSum(array,true));
 		System.out.println("Сумма нечетных элементов первого массива : "+oddEvenSum(array,false));
-		System.out.println("Число в первом массиве "+number+ " встречалось максимум "+maxSequence(array,number)+" раз подряд");
+		System.out.println("Число " +number+ " в первом массиве  встречалось максимум "+maxSequence(array,number)+" раз подряд");
 		System.out.print("Максимальная разница между элементами первого массива " + (index+1) + "-м и " + (index + 2) + "-м элементами");
 		}
 	public static int random(int min,int max){
@@ -56,7 +56,6 @@ public class Lesson1Task3 {
 		}
 		System.out.println("Новый массив из первого и третьего массива");
 	}
-	
 	
 	
 	public static int oddEvenSum(int[]array, boolean odds){

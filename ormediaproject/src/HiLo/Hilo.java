@@ -8,6 +8,7 @@ public class Hilo {
 		Scanner scan = new Scanner(System.in);
 		int min=0;
 		int max=0;
+		System.out.println("Добро пожаловать в игру");
 		System.out.println("Введите минимальное число.");
 		min = scan.nextInt();
 		System.out.println("Число "+ min + " принято.");
