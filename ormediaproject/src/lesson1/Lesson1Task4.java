@@ -4,10 +4,10 @@ public class Lesson1Task4 {
 
 	public static void main(String[] args) {
 		char[]chars = randomCharArray(30,100);
-		System.out.println("Изначальный массив символов");
+		System.out.println("пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ");
 		System.out.println(chars);
 		changeCharRegister(chars);
-		System.out.println("Конечный массив символов");
+		System.out.println("пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ");
 		System.out.println(chars);
 	}
 	
@@ -30,8 +30,10 @@ public class Lesson1Task4 {
 				chars[i]+=32;
 		    }else if(chars[i]>='a'&&chars[i]<='z')chars[i]-=32;
 				
-				}
+				
 		}
+	
+	}
 	}
 	
 
