@@ -30,7 +30,8 @@ public class Lesson1Task4 {
 				chars[i]+=32;
 		    }else if(chars[i]>='a'&&chars[i]<='z')chars[i]-=32;
 				
-				
+	
+			
 		}
 	
 	}

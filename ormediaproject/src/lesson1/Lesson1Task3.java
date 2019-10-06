@@ -95,6 +95,8 @@ public class Lesson1Task3 {
 		
 	}
 	
+	
+	
 	public static int indexOfMaxDifference(int[] array) {
 		int diff = 0;
 		int index = 0;
