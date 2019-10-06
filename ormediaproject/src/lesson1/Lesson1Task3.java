@@ -6,13 +6,14 @@ public class Lesson1Task3 {
 	
 
 	public static void main(String[] args) {
-		int array[] = randomArray(20,1,1);
+		int array[] = randomArray(20,-3,3);
 		int array2[] = randomArray(10,4,10);
 		int number = 1;
 		int index = indexOfMaxDifference(array);
 		show(array);
 		System.out.println("Первый массив");
 		replace(array,1,5);
+		System.out.println("Второй массив");
 		show2(array2);
 		sort(array,true);	
 		show(array);
@@ -100,7 +101,7 @@ public class Lesson1Task3 {
 		for (int i = 0; i < array.length - 1; i++) {
 			int temp = Math.abs(array[i + 1]) - Math.abs(array[i]);
 			if (Math.abs(temp) > diff) {
-				diff = temp;
+				diff = Math.abs(temp);
 				index = i;
 			}
 		}
@@ -124,7 +125,7 @@ public class Lesson1Task3 {
 			
 			System.out.print(array1[i]+" ");
 		}
-        System.out.println("Второй массив");
+      
 	}	
 	/*
 	 Решил сделать поинтереснее. Идея была такой что бы первый массив оставался неизмееный,

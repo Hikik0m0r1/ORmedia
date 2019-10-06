@@ -28,12 +28,10 @@ public class Lesson1Task4 {
 		for(int i=0;i<chars.length;i++){
 			if(chars[i]>='A'&&chars[i]<='Z'){
 				chars[i]+=32;
-			}else 
-				{chars[i]-=32;
+		    }else if(chars[i]>='a'&&chars[i]<='z')chars[i]-=32;
 				
 				}
 		}
 	}
 	
 
-}
