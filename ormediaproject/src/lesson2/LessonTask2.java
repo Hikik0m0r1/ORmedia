@@ -13,18 +13,17 @@ public class LessonTask2 {
 		char[] chars = habs.toCharArray();
 		System.out.println(chars);
 		if(initialize(chars)){
-			System.out.println(" Телефонный номер  принят. ");
-			break;
+		break;
 		}
-		
-			else {
-		    System.out.println("Телефонный номер неверный");;
+		else {
+		System.out.println("Телефонный номер неверный");;
 	            }
 		    
 		    }
+		System.out.println(" Телефонный номер  принят. ");
 		    }
 		
-        //System.out.println(" Телефонный номер  принят. ");
+        
 	
 		    
 		
