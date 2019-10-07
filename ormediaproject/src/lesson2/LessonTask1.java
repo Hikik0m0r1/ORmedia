@@ -3,7 +3,7 @@ package lesson2;
 public class LessonTask1 {
 
 	public static void main (String[] args){
-	    int field[][] = new int[3][3];
+	    int field[][] = new int[5][5];
 	    field[0][0] = 1;
 	    field[0][1] = 2;
 	    field[1][0] = 3;
