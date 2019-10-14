@@ -5,7 +5,7 @@ public class Something {
 	
 	private Something(){	
 	}
-	public static Something getInstance(){ // #3
+	public static Something getInstance(){ 
         if(instance == null){		
             instance = new Something();	
         }
